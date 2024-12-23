@@ -15,4 +15,5 @@ const MapData = ({data}) =>{
     )
 }
 
+
 export default MapData;
