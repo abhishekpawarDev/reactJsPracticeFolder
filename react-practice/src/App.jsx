@@ -1,14 +1,10 @@
 import React from "react";
 import NetflixPage from "./components/netflixCard";
-const App = () =>{
-  return(
+import MovieCard from "./components/mapMethod";
+const App = () => {
+  return (
     <>
-  <NetflixPage/>
-  <NetflixPage/>
-  <NetflixPage/>
-  <NetflixPage/>
-  <NetflixPage/>
-  <NetflixPage/>
+      <MovieCard />
     </>
   )
 }
