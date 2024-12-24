@@ -6,10 +6,11 @@ import UseStateHook from "./hooks/state";
 import DerivedState from "./derivedState";
 import LiftingStateUp from "./liftingstateup";
 import ToogleBtnProject from "./toogleProject";
+import ToDoListComponent from "./todoListProject/toDoListComponent";
 const App = () => {
   return (
     <>
-      <ToogleBtnProject/>
+      <ToDoListComponent/>
     </>
   )
 }
