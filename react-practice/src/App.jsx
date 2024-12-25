@@ -8,10 +8,11 @@ import LiftingStateUp from "./liftingstateup";
 import ToogleBtnProject from "./toogleProject";
 import ToDoListComponent from "./todoListProject/toDoListComponent";
 import UseStateHooks from "./hooks/useStateChallange";
+import RegistatioFormReact from "./registationForm";
 const App = () => {
   return (
     <>
-      <UseStateHooks/>
+      <RegistatioFormReact/>
     </>
   )
 }
