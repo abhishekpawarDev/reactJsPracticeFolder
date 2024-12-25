@@ -9,10 +9,12 @@ import ToogleBtnProject from "./toogleProject";
 import ToDoListComponent from "./todoListProject/toDoListComponent";
 import UseStateHooks from "./hooks/useStateChallange";
 import RegistatioFormReact from "./registationForm";
+import UseEffectHookComponent from "./useEffectHook";
+import UseEffectClockComponent from "./useEffectHook/useEffectClock";
 const App = () => {
   return (
     <>
-      <RegistatioFormReact/>
+      <UseEffectClockComponent/>
     </>
   )
 }
