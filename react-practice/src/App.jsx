@@ -11,10 +11,13 @@ import UseStateHooks from "./hooks/useStateChallange";
 import RegistatioFormReact from "./registationForm";
 import UseEffectHookComponent from "./useEffectHook";
 import UseEffectClockComponent from "./useEffectHook/useEffectClock";
+import UseRefHookComponent from "./hooks/useRefHook";
+import UseReducerHookComponent from "./hooks/useReducerHook";
+import UseReducerAdv from "./hooks/useReducerHook/advance";
 const App = () => {
   return (
     <>
-      <UseEffectClockComponent/>
+      <UseReducerAdv/>
     </>
   )
 }
