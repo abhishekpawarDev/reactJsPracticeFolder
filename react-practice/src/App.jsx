@@ -17,7 +17,7 @@ import UseReducerAdv from "./hooks/useReducerHook/advance";
 const App = () => {
   return (
     <>
-      <UseReducerAdv/>
+      <ToDoListComponent/>
     </>
   )
 }
